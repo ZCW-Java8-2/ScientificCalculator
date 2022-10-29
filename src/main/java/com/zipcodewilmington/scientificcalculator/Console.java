@@ -70,7 +70,8 @@ public class Console {
         return Math.pow(i,j);
     }
     public static double inverse(double i) {
-
+        String sNumber = (String) String.format("%.2f", (1 /i));
+        Double newNumber = Double.parseDouble(sNumber);
         return (1 / i);
     }
 
