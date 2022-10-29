@@ -15,6 +15,13 @@ public class Console {
         print(output + "\n", args);
     }
 
+    public static int getIntegerInput(String prompt) {
+        Scanner scanner = new Scanner(System.in);
+        println(prompt);
+        int  userInput = scanner.nextInt();
+        return userInput;
+    }
+
     public static String getStringInput(String prompt) {
         Scanner scanner = new Scanner(System.in);
         println(prompt);
@@ -22,50 +29,47 @@ public class Console {
         return userInput;
     }
 
-    public static Integer getIntegerInput(String prompt) {
+    public static Double getDoubleInput(String prompt) {
         Scanner scanner = new Scanner(System.in);
         println(prompt);
-        int userInput = scanner.nextInt();
+        double  userInput = scanner.nextDouble();
         return userInput;
+
     }
 
-    public static Double getDoubleInput(String prompt) {
-        return null;
-    }
-
-    public static int addInt(int i, int j) {
+    public static double add(double i, double j) {
 
         return i + j;
     }
 
-    public static int subtractionInt(int i, int j) {
+    public static double subtraction(double i, double j) {
 
         return i - j;
 
 
     }
-    public static int multiplicationInt(int i, int j) {
+    public static double multiplication(double i, double j) {
 
         return i * j;
     }
 
-    public static int divisionInt(int i, int j) {
+    public static double division(double i, double j) {
 
         return i / j;
     }
-    public static int squareInt(int i) {
+    public static double square(double i) {
 
         return i * i;
     }
-    public static double squareRootInt(int i) {
+    public static double squareRoot(double i) {
 
         return Math.sqrt(i);
     }
-    public static double exponentsInt(int i, int j) {
+    public static double exponents(double i, double j) {
 
         return Math.pow(i,j);
     }
-    public static int inverseInt(int i) {
+    public static double inverse(double i) {
 
         return (1 / i);
     }
