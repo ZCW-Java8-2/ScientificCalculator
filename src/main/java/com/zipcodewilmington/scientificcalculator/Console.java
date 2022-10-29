@@ -32,9 +32,26 @@ public class Console {
     public static Double getDoubleInput(String prompt) {
         return null;
     }
-    public static int addInt(int i,int j)
-    {
 
-        return i+j;
+    public static int addInt(int i, int j) {
+
+        return i + j;
     }
+
+    public static int subtractionInt(int i, int j) {
+
+        return i - j;
+
+
+    }
+    public static int multiplicationnInt(int i, int j) {
+
+        return i * j;}
+
+
+    public static int divisionInt(int i, int j) {
+
+        return i / j;}
+    }
+
 }
