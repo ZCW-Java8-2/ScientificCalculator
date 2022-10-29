@@ -97,4 +97,11 @@ public class Console {
         Double newTan = Double.parseDouble(sNumber3);
         return (newTan);
     }
+
+    public static double factorial(double i) {
+        if (i == 0)
+            return 1;
+        else
+        return (i * factorial(i-1));
+    }
 }

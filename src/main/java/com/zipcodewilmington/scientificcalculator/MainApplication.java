@@ -17,6 +17,7 @@ public class MainApplication {
         System.out.println("9.Sine");
         System.out.println("10.Cosine");
         System.out.println("11.Tangent");
+        System.out.println("12.Factorial");
         int option=Console.getIntegerInput("Enter an option");
 
 try {
@@ -62,6 +63,9 @@ try {
             break;
         case 11:
             System.out.println(Console.tan(n1));
+            break;
+        case 12:
+            System.out.println(Console.factorial(n1));
             break;
         default:
             System.out.println("Select option again");

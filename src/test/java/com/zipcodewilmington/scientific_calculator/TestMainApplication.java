@@ -100,6 +100,15 @@ public class TestMainApplication {
         Assert.assertEquals(actual, result);
     }
 
+    @Test
+    public void inverseTest5()
+
+    {
+
+        Double result = Console.factorial(2);
+        Double actual =2.0;
+        Assert.assertEquals(actual, result);
+    }
 
 
 }
