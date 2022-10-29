@@ -14,12 +14,22 @@ public class MainApplication {
         {
             case 0:selected="Addition of integers";
                 break;
-            case 1:selected="Substration of integers";
+            case 1:selected="Subtraction of integers";
                 break;
             case 2:selected="Multiplication of integers";
                 break;
             case 3:selected="Division of integers";
                 break;
+            case 4:selected="Square of integers";
+                break;
+            case 5:selected="Square root of integers";
+                break;
+            case 6:selected="Exponents of integers";
+                break;
+            case 7:selected="Inverse of integers";
+                break;
+
+
 
         }
         if(option==0) {

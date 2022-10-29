@@ -44,14 +44,31 @@ public class Console {
 
 
     }
-    public static int multiplicationnInt(int i, int j) {
+    public static int multiplicationInt(int i, int j) {
 
-        return i * j;}
-
+        return i * j;
+    }
 
     public static int divisionInt(int i, int j) {
 
-        return i / j;}
+        return i / j;
     }
+    public static int squareInt(int i) {
+
+        return i * i;
+    }
+    public static double squareRootInt(int i) {
+
+        return Math.sqrt(i);
+    }
+    public static double exponentsInt(int i, int j) {
+
+        return Math.pow(i,j);
+    }
+    public static int inverseInt(int i) {
+
+        return (1 / i);
+    }
+
 
 }
