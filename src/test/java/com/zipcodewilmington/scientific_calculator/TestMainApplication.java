@@ -70,6 +70,46 @@ public class TestMainApplication {
         Assert.assertEquals(actual, result);
     }
 
+    @Test
+    public void inverseTest2()
+
+    {
+
+        Double result = Console.cos(5);
+        Double actual =0.28;
+        Assert.assertEquals(actual, result);
+    }
+
+    @Test
+    public void inverseTest3()
+
+    {
+
+        Double result = Console.tan(5);
+        Double actual =-3.38;
+        Assert.assertEquals(actual, result);
+    }
+
+    @Test
+    public void inverseTest4()
+
+    {
+
+        Double result = Console.sin(5);
+        Double actual =-0.96;
+        Assert.assertEquals(actual, result);
+    }
+
+    @Test
+    public void inverseTest5()
+
+    {
+
+        Double result = Console.factorial(2);
+        Double actual =2.0;
+        Assert.assertEquals(actual, result);
+    }
+
 
 }
 
