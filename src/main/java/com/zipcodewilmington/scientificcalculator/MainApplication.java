@@ -7,10 +7,13 @@ public class MainApplication {
     public static void main(String[] args) {
         Console.println("Welcome to my calculator!");
         System.out.println("1.Addition of integers");
-        System.out.println("2. Substraction");
+        System.out.println("2.Substraction");
         System.out.println("3.Multiplication");
         System.out.println("4.Division");
         System.out.println("5.Square");
+        System.out.println("6.Squareroot");
+        System.out.println("7.Exponents");
+        System.out.println("8.Inverse");
         int option=Console.getIntegerInput("Enter an option");
 
 
